@@ -3,7 +3,7 @@ const logo = '/logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#008CFF] to-[#A900FF] text-white overflow-hidden">
+    <footer className="theme-brand-gradient text-white overflow-hidden">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-col lg:flex-row justify-around items-start gap-8">

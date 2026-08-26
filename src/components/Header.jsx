@@ -87,7 +87,7 @@ const Header = () => {
             <div className="hidden md:block">
               <button 
                 onClick={handleGetInTouch}
-                className="group flex items-center gap-2 bg-gradient-to-r from-[#008CFF] to-[#A900FF] px-5 py-2.5 rounded-lg font-semibold text-sm text-white transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_20px_rgba(189,36,223,0.4)]"
+                className="theme-button theme-brand-gradient theme-brand-shadow group gap-2 rounded-lg text-sm text-white"
               >
                 <span>Get in Touch</span>
                 <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -126,7 +126,7 @@ const Header = () => {
           <NavLink to="/projects" onClick={() => setOpen(false)} className="text-xl font-medium text-gray-300 hover:text-white transition-colors">Our Projects</NavLink>
           <button 
             onClick={handleGetInTouch}
-            className="w-full bg-gradient-to-r from-[#008CFF] to-[#A900FF] py-4 rounded-xl text-white font-bold shadow-lg active:scale-95 transition-transform"
+            className="theme-button theme-brand-gradient w-full rounded-xl text-white font-bold shadow-lg"
           >
             Get in Touch
           </button>

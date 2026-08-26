@@ -35,7 +35,7 @@ const Smartlocker = () => {
 
         <div className="relative z-20 max-w-7xl mx-auto mt-20">
           {/* Title */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-[#00A6FF] mb-6 animate-fade-in-up animate-float">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center theme-primary-text mb-6 animate-fade-in-up animate-float">
             Smart Locker System
           </h1>
 

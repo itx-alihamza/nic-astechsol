@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Any folder or file starting with . is ignored (e.g., .env, .codex, .agent, .idea)
+.*

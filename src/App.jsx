@@ -10,6 +10,7 @@ const Smarthelmet = lazy(() => import("./pages/Smarthelmet"));
 const Smartbel = lazy(() => import("./pages/Smartbel"));
 const Smartlocker = lazy(() => import("./pages/Smartlocker"));
 const Gettouch = lazy(() => import("./pages/Gettouch"));
+const Services = lazy(() => import("./pages/Services"));
 
 import './App.css';
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="smartbel" element={<Smartbel />} />
           <Route path="smartlocker" element={<Smartlocker />} />
           <Route path="gettouch" element={<Gettouch />} />
+          <Route path="services" element={<Services />} />
         </Route>
       </Routes>
     </Suspense>

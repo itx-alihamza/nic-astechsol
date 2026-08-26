@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 
-const logo = '/logo.png'; 
+const logo = '/logo.webp'; 
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -78,6 +78,7 @@ const Header = () => {
             <ul className="flex items-center gap-1 bg-white/5 border border-white/10 rounded-full px-2 py-1.5 backdrop-blur-lg shadow-lg">
               <li><NavLink to="/" className={navLinkStyles}>Home</NavLink></li>
               <li><NavLink to="/about" className={navLinkStyles}>About Us</NavLink></li>
+              <li><NavLink to="/services" className={navLinkStyles}>Services</NavLink></li>
               <li><NavLink to="/projects" className={navLinkStyles}>Our Projects</NavLink></li>
             </ul>
           </nav>
@@ -123,6 +124,7 @@ const Header = () => {
         <div className="px-6 py-8 flex flex-col gap-6 text-center">
           <NavLink to="/" onClick={() => setOpen(false)} className="text-xl font-medium text-gray-300 hover:text-white transition-colors">Home</NavLink>
           <NavLink to="/about" onClick={() => setOpen(false)} className="text-xl font-medium text-gray-300 hover:text-white transition-colors">About Us</NavLink>
+          <NavLink to="/services" onClick={() => setOpen(false)} className="text-xl font-medium text-gray-300 hover:text-white transition-colors">Services</NavLink>
           <NavLink to="/projects" onClick={() => setOpen(false)} className="text-xl font-medium text-gray-300 hover:text-white transition-colors">Our Projects</NavLink>
           <button 
             onClick={handleGetInTouch}

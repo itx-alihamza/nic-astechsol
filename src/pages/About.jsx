@@ -9,7 +9,7 @@ const idreeskhan = "/idrees khan.png";
 const teamMembers = [
   { name: "Abdullah Hedyatullah", role: "CEO", image: abduallah },
   { name: "Tahir Khan", role: "COO", image: "/team-members/tahir-khan.webp" },
-  { name: "Mueed Farooq", role: "AI/ML Developer", image: "/team-members/mueed-farooq.webp" },
+  { name: "Mueed Farooq", role: "AI/ML Engineer", image: "/team-members/mueed-farooq.webp" },
   { name: "Dr. Jan Badshah", role: "IT Advisor", image: "/jan-badshah.png" },
   { name: "Ali Hamza", role: "Lead Full-Stack Developer", image: "/team-members/ali-hamza.webp" },
   { name: "Idrees Khan", role: "Manager Admin Works", image: idreeskhan },

@@ -3,9 +3,17 @@ import React from 'react';
 // ✅ Import images correctly
 const backimage = "/backimage22.jpg";
 const innovation = "/innvotion.png";
-const abduallah = "/abdullah.png";
+const abduallah = "/team-members/abdullah-hedyatullah.webp";
 const idreeskhan = "/idrees khan.png";
-const janbadshah = "/jan-badshah.png";
+
+const teamMembers = [
+  { name: "Abdullah Hedyatullah", role: "CEO", image: abduallah },
+  { name: "Tahir Khan", role: "COO", image: "/team-members/tahir-khan.webp" },
+  { name: "Mueed Farooq", role: "AI/ML Developer", image: "/team-members/mueed-farooq.webp" },
+  { name: "Dr. Jan Badshah", role: "IT Advisor", image: "/jan-badshah.png" },
+  { name: "Ali Hamza", role: "Lead Full-Stack Developer", image: "/team-members/ali-hamza.webp" },
+  { name: "Idrees Khan", role: "Manager Admin Works", image: idreeskhan },
+];
 
 const About = () => {
   return (
@@ -120,7 +128,7 @@ const About = () => {
         <div className="relative z-20 max-w-7xl mx-auto">
           {/* Title */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 text-center animate-fade-in-up animate-slide-in-from-bottom">
-            Our Team
+            Executive Team
           </h2>
 
           {/* Description */}
@@ -129,60 +137,48 @@ const About = () => {
           </p>
 
           {/* Team Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {/* Team Member 1: Abdullah */}
-            <div className="group flex flex-col items-center animate-fade-in-up animation-delay-200 ">
-              <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 shadow-xl hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500 hover:scale-105 hover:border-white/40 hover:-translate-y-2">
-                <div className="p-2">
-                  <img
-                    src={abduallah}
-                    alt="Abdullah"
-                    className="w-full h-auto aspect-square object-cover rounded-xl transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4 text-center">
-                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-1 transition-colors duration-300 group-hover:text-blue-400">Abdullah</h3>
-                  <p className="text-gray-400 text-xs sm:text-sm transition-colors duration-300 group-hover:text-gray-300">Founder & CEO</p>
+          <div className="flex justify-center">
+            {teamMembers.slice(0, 1).map((member) => (
+              <div key={member.name} className="group flex flex-col items-center animate-fade-in-up">
+                <div className="relative w-full max-w-xs overflow-hidden rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 shadow-xl hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500 hover:scale-105 hover:border-white/40 hover:-translate-y-2">
+                  <div className="p-2">
+                    <img
+                      src={member.image}
+                      alt={`${member.name}, ${member.role}`}
+                      className="w-full aspect-square object-cover object-center rounded-xl transition-transform duration-700 group-hover:scale-110"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                  <div className="p-4 text-center">
+                    <h3 className="text-lg sm:text-xl font-bold text-white mb-1 transition-colors duration-300 group-hover:text-blue-400">{member.name}</h3>
+                    <p className="text-gray-400 text-xs sm:text-sm transition-colors duration-300 group-hover:text-gray-300">{member.role}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
+          </div>
 
-            {/* Team Member 2: Idrees Khan */}
-            <div className="group flex flex-col items-center animate-fade-in-up animation-delay-300">
-              <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 shadow-xl hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500 hover:scale-105 hover:border-white/40 hover:-translate-y-2">
-                <div className="p-2">
-                  <img
-                    src={idreeskhan}
-                    alt="Idrees Khan"
-                    className="w-full h-auto aspect-square object-cover object-center rounded-xl transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4 text-center">
-                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-1 transition-colors duration-300 group-hover:text-blue-400">Idrees Khan</h3>
-                  <p className="text-gray-400 text-xs sm:text-sm transition-colors duration-300 group-hover:text-gray-300">Manager Admin Works</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Team Member 3: Dr. Jan Badshah */}
-            <div className="group flex flex-col items-center animate-fade-in-up animation-delay-400">
-              <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 shadow-xl hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500 hover:scale-105 hover:border-white/40 hover:-translate-y-2">
-                <div className="p-2">
-                  <img
-                    src={janbadshah}
-                    alt="Dr. Jan Badshah"
-                    className="w-full h-auto aspect-square object-cover object-center rounded-xl transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4 text-center">
-                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-1 transition-colors duration-300 group-hover:text-blue-400">Dr. Jan Badshah</h3>
-                  <p className="text-gray-400 text-xs sm:text-sm transition-colors duration-300 group-hover:text-gray-300">Advisor IT</p>
+          <div className="mt-6 md:mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 md:gap-8">
+            {teamMembers.slice(1).map((member, index) => (
+              <div key={member.name} className="group flex flex-col items-center animate-fade-in-up" style={{ animationDelay: `${200 + index * 100}ms` }}>
+                <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 shadow-xl hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500 hover:scale-105 hover:border-white/40 hover:-translate-y-2">
+                  <div className="p-2">
+                    <img
+                      src={member.image}
+                      alt={`${member.name}, ${member.role}`}
+                      className="w-full aspect-square object-cover object-center rounded-xl transition-transform duration-700 group-hover:scale-110"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                  <div className="p-4 text-center">
+                    <h3 className="text-lg sm:text-xl font-bold text-white mb-1 transition-colors duration-300 group-hover:text-blue-400">{member.name}</h3>
+                    <p className="text-gray-400 text-xs sm:text-sm transition-colors duration-300 group-hover:text-gray-300">{member.role}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

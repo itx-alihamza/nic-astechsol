@@ -3,7 +3,7 @@ const logo = '/logo.webp';
 
 const Footer = () => {
   return (
-    <footer className="theme-brand-gradient text-white overflow-hidden">
+    <footer className="theme-footer text-white overflow-hidden">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-col lg:flex-row justify-around items-start gap-8">

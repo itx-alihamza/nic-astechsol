@@ -5,6 +5,7 @@ const backimage = "/backimage22.jpg";
 const innovation = "/innvotion.png";
 const abduallah = "/team-members/abdullah-hedyatullah.webp";
 const idreeskhan = "/idrees khan.png";
+const profilePlaceholder = "/team-members/profile-placeholder.svg";
 
 const teamMembers = [
   { name: "Abdullah Hedyatullah", role: "CEO", image: abduallah },
@@ -13,6 +14,11 @@ const teamMembers = [
   { name: "Dr. Jan Badshah", role: "IT Advisor", image: "/jan-badshah.png" },
   { name: "Ali Hamza", role: "Lead Full-Stack Developer", image: "/team-members/ali-hamza.webp" },
   { name: "Idrees Khan", role: "Manager Admin Works", image: idreeskhan },
+  { name: "Fatima", role: "Head of Sales", image: profilePlaceholder },
+  { name: "Najma", role: "Head of Marketing", image: profilePlaceholder },
+  { name: "Alam", role: "Lead Graphics Designer", image: profilePlaceholder },
+  { name: "Shoaib", role: "Full Stack Developer", image: profilePlaceholder },
+  { name: "Muazzam", role: "Backend Developer", image: profilePlaceholder },
 ];
 
 const About = () => {

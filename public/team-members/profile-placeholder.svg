@@ -1,0 +1,26 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="80" y1="60" x2="720" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172554"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 350) rotate(90) scale(380)">
+      <stop stop-color="#38BDF8" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silhouette" x1="400" y1="236" x2="400" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#64748B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" rx="48" fill="url(#background)"/>
+  <circle cx="400" cy="350" r="380" fill="url(#glow)"/>
+  <circle cx="400" cy="320" r="112" fill="url(#silhouette)"/>
+  <path d="M174 720C194 542 278 464 400 464C522 464 606 542 626 720H174Z" fill="url(#silhouette)"/>
+  <path d="M88 650C166 570 244 532 318 534" stroke="#38BDF8" stroke-opacity="0.32" stroke-width="4" stroke-linecap="round"/>
+  <path d="M712 650C634 570 556 532 482 534" stroke="#A78BFA" stroke-opacity="0.32" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="400" cy="400" r="300" stroke="#BAE6FD" stroke-opacity="0.14" stroke-width="2"/>
+  <text x="400" y="756" text-anchor="middle" fill="#BAE6FD" fill-opacity="0.72" font-family="Arial, sans-serif" font-size="24" letter-spacing="6">PROFILE PHOTO</text>
+</svg>

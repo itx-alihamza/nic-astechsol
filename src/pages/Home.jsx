@@ -1,7 +1,7 @@
 import React from 'react';
 
 // ✅ Import images correctly
-const backimage = "/backimage22.jpg";
+const backimage = "/backimage22.webp";
 import featureImage from "../assets/featureImage.png";
 
 // ✅ Import components

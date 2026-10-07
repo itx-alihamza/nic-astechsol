@@ -1,17 +1,17 @@
 import React from 'react';
 
 // ✅ Import images correctly
-const backimage = "/backimage22.jpg";
-const innovation = "/innvotion.png";
+const backimage = "/backimage22.webp";
+const innovation = "/innvotion.webp";
 const abduallah = "/team-members/abdullah-hedyatullah.webp";
-const idreeskhan = "/idrees khan.png";
+const idreeskhan = "/idrees khan.webp";
 const profilePlaceholder = "/team-members/profile-placeholder.svg";
 
 const teamMembers = [
   { name: "Abdullah Hedyatullah", role: "CEO", image: abduallah },
   { name: "Tahir Khan", role: "COO", image: "/team-members/tahir-khan.webp" },
   { name: "Mueed Farooq", role: "AI/ML Engineer", image: "/team-members/mueed-farooq.webp" },
-  { name: "Dr. Jan Badshah", role: "IT Advisor", image: "/jan-badshah.png" },
+  { name: "Dr. Jan Badshah", role: "IT Advisor", image: "/jan-badshah.webp" },
   { name: "Ali Hamza", role: "Lead Full-Stack Developer", image: "/team-members/ali-hamza.webp" },
   { name: "Idrees Khan", role: "Manager Admin Works", image: idreeskhan },
   { name: "Fatima", role: "Head of Sales", image: profilePlaceholder },

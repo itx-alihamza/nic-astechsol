@@ -1,6 +1,6 @@
 import React from "react";
 import frontimage from "../assets/frontimage.png";
-const backimage = "/backimage22.jpg";
+const backimage = "/backimage22.webp";
 
 const QualitySection = () => {
   return (

@@ -1,15 +1,15 @@
 import React from "react";
 
 // ✅ Use public folder for images (reliable)
-const background = "/backimage22.jpg";
-const smarthelmet = "/smarthelmet.png";
-const firstimage = "/111.png";
-const secondimage = "/222.png";
-const thirdimage = "/333.png";
-const fourthimage = "/444.png";
-const helmet = "/helmets.png";
-const leftsidimage = "/leftsideimag.png";
-const helmetnova = "/helmetnova.png";
+const background = "/backimage22.webp";
+const smarthelmet = "/smarthelmet.webp";
+const firstimage = "/111.webp";
+const secondimage = "/222.webp";
+const thirdimage = "/333.webp";
+const fourthimage = "/444.webp";
+const helmet = "/helmets.webp";
+const leftsidimage = "/leftsideimag.webp";
+const helmetnova = "/helmetnova.webp";
 
 const Smarthelmet = () => {
   return (

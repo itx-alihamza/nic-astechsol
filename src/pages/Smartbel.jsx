@@ -1,11 +1,11 @@
 import React from 'react';
 
 // Images from public folder
-const background = "/backimage22.jpg";
-const smartbell = "/smartbell.png";
-const splash = "/splash.png";
-const homescreen = "/homescreen.png";
-const setalarm = "/setalarm.png";
+const background = "/backimage22.webp";
+const smartbell = "/smartbell.webp";
+const splash = "/splash.webp";
+const homescreen = "/homescreen.webp";
+const setalarm = "/setalarm.webp";
 
 const Smartbel = () => {
   return (

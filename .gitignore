@@ -25,3 +25,6 @@ dist-ssr
 
 # Any folder or file starting with . is ignored (e.g., .env, .codex, .agent, .idea)
 .*
+!.cpanel.yml
+!.github/
+!.github/workflows/

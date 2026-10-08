@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/astechso/public_html/
+    - npm ci --include=dev
+    - npm run build
+    - /bin/rsync -avz --exclude '.git*' --exclude '.cpanel.yml' dist/ $DEPLOYPATH

@@ -30,6 +30,12 @@ const teamMembers = [
     image: "/team-members/idrees-khan.webp",
   },
   {
+    name: "Misbah",
+    role: "Project Manager",
+    image: "/team-members/misbah.webp",
+    imagePosition: "center 20%",
+  },
+  {
     name: "Fatima",
     role: "Head of Sales",
     image: "/team-members/profile-placeholder.svg",
@@ -53,11 +59,6 @@ const teamMembers = [
     name: "Muazzam",
     role: "Backend Developer",
     image: "/team-members/profile-placeholder.svg",
-  },
-  {
-    name: "Misbah",
-    role: "Project Manager",
-    image: "/team-members/misbah.webp",
   },
 ];
 

@@ -1,0 +1,15 @@
+DirectoryIndex index.html
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve real files directly, but send extensionless SPA routes to React.
+  # This also handles routes such as /about/ when /about/ is an asset folder.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !\.[^/]+$
+  RewriteRule ^ /index.html [L]
+
+  RewriteRule ^index\.html$ - [L]
+</IfModule>

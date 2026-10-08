@@ -135,6 +135,7 @@ const About = () => {
                       src={member.image}
                       alt={`${member.name}, ${member.role}`}
                       className="w-full aspect-square object-cover object-center rounded-xl transition-transform duration-700 group-hover:scale-110"
+                      style={member.imagePosition ? { objectPosition: member.imagePosition } : undefined}
                       loading="lazy"
                       decoding="async"
                     />
@@ -157,6 +158,7 @@ const About = () => {
                       src={member.image}
                       alt={`${member.name}, ${member.role}`}
                       className="w-full aspect-square object-cover object-center rounded-xl transition-transform duration-700 group-hover:scale-110"
+                      style={member.imagePosition ? { objectPosition: member.imagePosition } : undefined}
                       loading="lazy"
                       decoding="async"
                     />

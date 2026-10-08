@@ -151,7 +151,7 @@ const About = () => {
 
           <div className="mt-6 md:mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 md:gap-8">
             {teamMembers.slice(1).map((member, index) => (
-              <div key={member.name} className={`group flex flex-col items-center animate-fade-in-up ${member.name === 'Misbah' ? 'xl:col-start-3' : ''}`} style={{ animationDelay: `${200 + index * 100}ms` }}>
+              <div key={member.name} className="group flex flex-col items-center animate-fade-in-up" style={{ animationDelay: `${200 + index * 100}ms` }}>
                 <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 shadow-xl hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500 hover:scale-105 hover:border-white/40 hover:-translate-y-2">
                   <div className="p-2">
                     <img

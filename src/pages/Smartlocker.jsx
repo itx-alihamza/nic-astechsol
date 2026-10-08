@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Images from public folder
-const background = "/backimage22.webp";
-const smartlocker = "/smartlocker.webp";
+const background = "/backgrounds/site-background-alt.webp";
+const smartlocker = "/products/smart-locker.webp";
 
 const Smartlocker = () => {
   return (

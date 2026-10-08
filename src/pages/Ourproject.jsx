@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // ✅ Use public folder for images (reliable)
-const smartHelmet = "/first11.webp";
-const smartBellRinger = "/secondimag.webp";
-const digitalLocker = "/third.webp";
-const backimage = "/backimage22.webp";
+const smartHelmet = "/projects/smart-helmet.webp";
+const smartBellRinger = "/projects/smart-bell-ringer.webp";
+const digitalLocker = "/projects/digital-locker.webp";
+const backimage = "/backgrounds/site-background-alt.webp";
 
 const OurProjects = () => {
   const projects = [

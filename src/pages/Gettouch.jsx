@@ -1,7 +1,7 @@
 import React from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
-const Backimage = "/backimage.webp";
+const Backimage = "/backgrounds/site-background.webp";
 
 const Gettouch = () => {
   return (

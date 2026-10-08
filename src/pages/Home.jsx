@@ -1,8 +1,8 @@
 import React from 'react';
 
 // ✅ Import images correctly
-const backimage = "/backimage22.webp";
-import featureImage from "../assets/featureImage.png";
+const backimage = "/backgrounds/site-background-alt.webp";
+import featureImage from "../assets/homepage-feature-product.png";
 
 // ✅ Import components
 import QualitySection from "../components/QualitySection";

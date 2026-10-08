@@ -78,7 +78,7 @@ function Services() {
 
       <section className="theme-section services-capabilities" aria-labelledby="capabilities-title">
         <div className="theme-shell services-capabilities__layout">
-          <div className="services-product-image"><img src="/product-lifecycle.webp" alt="Connected product lifecycle from virtual simulation to mass production" loading="lazy" decoding="async" /></div>
+          <div className="services-product-image"><img src="/services/product-lifecycle.webp" alt="Connected product lifecycle from virtual simulation to mass production" loading="lazy" decoding="async" /></div>
           <div>
             <p className="services-eyebrow">From idea to impact</p>
             <h2 id="capabilities-title" className="theme-heading services-section-title">Everything your product needs.</h2>
@@ -116,11 +116,11 @@ function Services() {
           <div className="services-business-grid">
             {businessTypes.map(([title, description], index) => <article className="theme-card services-business-card" key={title}>
               {index === 0 ? (
-                <img className="services-business-card__image" src="/startup-team.webp" alt="Startup team collaborating around a table" loading="lazy" decoding="async" />
+                <img className="services-business-card__image" src="/services/startup-team.webp" alt="Startup team collaborating around a table" loading="lazy" decoding="async" />
               ) : index === 1 ? (
-                <img className="services-business-card__image" src="/growing-business-analytics.webp" alt="Business growth analytics displayed over a laptop workspace" loading="lazy" decoding="async" />
+                <img className="services-business-card__image" src="/services/growing-business-analytics.webp" alt="Business growth analytics displayed over a laptop workspace" loading="lazy" decoding="async" />
               ) : index === 2 ? (
-                <img className="services-business-card__image" src="/enterprise-team.webp" alt="Enterprise team meeting in a modern conference room" loading="lazy" decoding="async" />
+                <img className="services-business-card__image" src="/services/enterprise-team.webp" alt="Enterprise team meeting in a modern conference room" loading="lazy" decoding="async" />
               ) : (
                 <div className={`services-business-card__visual services-business-card__visual--${index + 1}`} aria-hidden="true"><span>{String(index + 1).padStart(2, '0')}</span></div>
               )}

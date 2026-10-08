@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from "react";
 
 // Replace these imports with your actual filenames
-import img1 from "../assets/leftimg.jpg";
-import img2 from "../assets/midimg.png";
-import img3 from "../assets/rightimg.jpg";
+import img1 from "../assets/gallery-left.jpg";
+import img2 from "../assets/gallery-center.png";
+import img3 from "../assets/gallery-right.jpg";
 
 const images = [img1, img2, img3];
 

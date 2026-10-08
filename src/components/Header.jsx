@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 
-const logo = '/logo.webp'; 
+const logo = '/brand/astechsolutions-logo.webp'; 
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);

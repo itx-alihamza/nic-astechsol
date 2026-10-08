@@ -1,5 +1,5 @@
 import React from 'react';
-const logo = '/logo.webp';
+const logo = '/brand/astechsolutions-logo.webp';
 
 const Footer = () => {
   return (

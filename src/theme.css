@@ -292,7 +292,7 @@ select {
 }
 
 .services-hero__image {
-  background-image: linear-gradient(90deg, color-mix(in srgb, var(--color-bg) 24%, transparent), transparent 66%), url('/services-hero.webp');
+  background-image: linear-gradient(90deg, color-mix(in srgb, var(--color-bg) 24%, transparent), transparent 66%), url('/services/services-hero.webp');
   background-position: center;
   background-size: cover;
   opacity: 0.9;

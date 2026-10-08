@@ -1,25 +1,8 @@
 import React from 'react';
+import teamMembers from '../data/teamMembers';
 
-// ✅ Import images correctly
-const backimage = "/backimage22.webp";
-const innovation = "/innvotion.webp";
-const abduallah = "/team-members/abdullah-hedyatullah.webp";
-const idreeskhan = "/idrees khan.webp";
-const profilePlaceholder = "/team-members/profile-placeholder.svg";
-
-const teamMembers = [
-  { name: "Abdullah Hedyatullah", role: "CEO", image: abduallah },
-  { name: "Tahir Khan", role: "COO", image: "/team-members/tahir-khan.webp" },
-  { name: "Mueed Farooq", role: "AI/ML Engineer", image: "/team-members/mueed-farooq.webp" },
-  { name: "Dr. Jan Badshah", role: "IT Advisor", image: "/jan-badshah.webp" },
-  { name: "Ali Hamza", role: "Lead Full-Stack Developer", image: "/team-members/ali-hamza.webp" },
-  { name: "Idrees Khan", role: "Manager Admin Works", image: idreeskhan },
-  { name: "Fatima", role: "Head of Sales", image: profilePlaceholder },
-  { name: "Najma", role: "Head of Marketing", image: profilePlaceholder },
-  { name: "Alam", role: "Lead Graphics Designer", image: profilePlaceholder },
-  { name: "Shoaib", role: "Full Stack Developer", image: profilePlaceholder },
-  { name: "Muazzam", role: "Backend Developer", image: profilePlaceholder },
-];
+const backimage = "/backgrounds/site-background-alt.webp";
+const innovation = "/about/product-innovation.webp";
 
 const About = () => {
   return (

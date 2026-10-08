@@ -1,6 +1,6 @@
 import React from "react";
-import frontimage from "../assets/frontimage.png";
-const backimage = "/backimage22.webp";
+import frontimage from "../assets/quality-section-front.png";
+const backimage = "/backgrounds/site-background-alt.webp";
 
 const QualitySection = () => {
   return (

@@ -31,7 +31,7 @@ const teamMembers = [
   },
   {
     name: "Misbah",
-    role: "Project Manager",
+    role: "Chief Technology Officer",
     image: "/team-members/misbah.webp",
     imagePosition: "center 20%",
   },

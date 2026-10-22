@@ -28,3 +28,6 @@ dist-ssr
 !.cpanel.yml
 !.github/
 !.github/workflows/
+
+# ignore docs folder 
+docs

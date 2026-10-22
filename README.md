@@ -1,5 +1,10 @@
 # React + Vite
 
+## Deployment
+
+For the end-to-end GitHub Actions to Hostinger deployment setup, credentials,
+release process, and troubleshooting, see [the Hostinger CI/CD guide](docs/HOSTINGER_CICD.md).
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

@@ -41,7 +41,7 @@ const Gettouch = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Location Card - FIXED LINK */}
           <a
-            href="https://www.google.com/maps/search/?api=1&query=NIC+Peshawar+PTCL+Training+center+University+Rd"
+            href="https://www.google.com/maps/search/?api=1&query=2nd+floor%2C+CODE+Lab%28Khota%29%2C+EI%2C+KSU%2C+Riyadh%2C+Saudi+Arabia"
             target="_blank"
             rel="noopener noreferrer"
             className="block cursor-pointer hover:scale-105 transition-all duration-300"
@@ -52,7 +52,7 @@ const Gettouch = () => {
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Our Location</h3>
               <p className="text-gray-300 leading-relaxed">
-                NIC Peshawar, University Rd, Peshawar
+                2nd floor, CODE Lab(Khota), EI, KSU, Riyadh, Saudi Arabia
               </p>
             </div>
           </a>

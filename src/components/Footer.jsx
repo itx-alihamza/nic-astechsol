@@ -26,21 +26,10 @@ const Footer = () => {
               <li><a href="/" className="hover:underline">Home</a></li>
               <li><a href="/about" className="hover:underline">About Us</a></li>
               <li><a href="/projects" className="hover:underline">Our Projects</a></li>
-              <li><a href="/pricing" className="hover:underline">Pricing</a></li>
               <li><a href="/gettouch" className="hover:underline">Contact</a></li>
             </ul>
           </div>
 
-          {/* Important Links Section */}
-          <div className="mt-8 lg:mt-8 mr-0 lg:mr-10">
-            <h3 className="font-semibold text-lg mb-1">Important Links</h3>
-            <ul className="list-disc pl-5">
-              <li><a href="#" className="hover:underline">Terms and Conditions</a></li>
-              <li><a href="#" className="hover:underline">Legal</a></li>
-              <li><a href="#" className="hover:underline">Business</a></li>
-              <li><a href="#" className="hover:underline">Partners</a></li>
-            </ul>
-          </div>
         </div>
       </div>
 
